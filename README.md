@@ -3,7 +3,7 @@ An easy to use pure js, css and html datepicker.
 The datepicker is now made to pick a range of dates but can easily be changed to pick only one date.
 
 Example:
-	![Screenshot](https://github.com/willemgovaerts/datepicker/screenshot.png)
+	![Screenshot](https://github.com/willemgovaerts/datepicker/blob/master/screenshot.png)
 Date format: YYYY-MM-DD
 
 

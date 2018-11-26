@@ -21,9 +21,9 @@ Coming Functionalities
   
 Usage:  
 	1)	add   
-			<link rel="stylesheet" type="text/css" href="datepicker.css">  
+			&lt;link rel="stylesheet" type="text/css" href="datepicker.css"&gt  
 
-			<script src="javscript.js"></script>  
+			&lt;script src="javscript.js"&gt &lt;/script &gt
 
 		in your html or php file  
 

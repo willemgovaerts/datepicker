@@ -1,0 +1,99 @@
+
+	<link rel="stylesheet" type="text/css" href="datepicker.css">
+<script src="javscript.js"></script>
+<div id="datepicker">
+	<input name="arrival" id="arrival" value="" style="">
+	<input name="departure"  id="departure" value="" style="visibility: hidden">
+	<div id="left">
+		<div id="vertical_align_cont">
+			<div class="to_from">
+				From
+			</div>
+			<div class="date_number_month first" id="date_number_month_from">
+				Pick a date
+			</div>
+
+			<div class="to_from">
+				To
+			</div>
+			<div id="date_number_month_to" class="date_number_month">
+				Pick a date
+			</div>
+		</div>
+
+
+	</div>
+	<div id="right">
+		<div id="month">
+			<span id="left_arrow" onclick="previous_month();" class="arrow"><img src="arrow.png" class="arrow_img" id="left_arrow_img"></span><span id="month_year">November 2018</span><span onclick="next_month()" id="right_arrow" class="arrow"><img src="arrow.png" class="arrow_img"></span>
+		</div>
+		<table>
+		<tr class="days">
+			<td><div class="content">Mo</div></td>
+			<td><div class="content">Tu</div></td>
+			<td><div class="content">We</div></td>
+			<td><div class="content">Th</div></td>
+			<td><div class="content">Fr</div></td>
+			<td><div class="content">Sa</div></td>
+			<td><div class="content">Su</div></td>
+		</tr>
+		<tr class="dates">
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td1"><div class="content">30</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td2"><div class="content">31</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td3"><div class="content">1</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td4"><div class="content">2</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td5"><div class="content">3</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td6"><div class="content">4</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td7"><div class="content">5</div></td>
+		</tr>
+		<tr class="dates">
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td8"><div class="content">6</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td9"><div class="content">7</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td10"><div class="content">8</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td11"><div class="content">9</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td12"><div class="content">10</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td13"><div class="content">11</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td14"><div class="content">12</div></td>
+		</tr>
+		<tr class="dates">
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td15"><div class="content">13</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td16"><div class="content">14</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td17"><div class="content">15</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td18"><div class="content">16</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td19"><div class="content">17</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td20"><div class="content">18</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td21"><div class="content">19</div></td>
+		</tr>
+		<tr class="dates">
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td22"><div class="content">20</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td23"><div class="content">21</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td24"><div class="content">22</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td25"><div class="content">23</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td26"><div class="content">24</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td27"><div class="content">25</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td28"><div class="content">26</div></td>
+		</tr>
+		<tr class="dates">
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td29"><div class="content">27</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td30"><div class="content">28</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td31"><div class="content">29</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td32"><div class="content">30</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td33"><div class="content">1</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td34"><div class="content">2</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td35"><div class="content">3</div></td>
+		</tr>
+		<tr class="dates">
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td36"><div class="content">4</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td37"><div class="content">5</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td38"><div class="content">6</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td39"><div class="content">7</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td40"><div class="content">8</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td41"><div class="content">9</div></td>
+			<td class="date_td" onmouseover="hovering(this)" onclick="selected(this)" id="data_td42"><div class="content">10</div></td>
+		</tr>
+		</table>
+		<script>
+		var currentTime = new Date()
+		set_month(currentTime.getMonth()+1,currentTime.getFullYear());</script>
+	</div>
+</div>

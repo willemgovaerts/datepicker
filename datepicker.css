@@ -1,0 +1,194 @@
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
+
+
+input {
+	display: none;
+}
+#datepicker {
+	height:30em;
+	width: 50em;
+	display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+	font-family: 'Roboto';
+
+    font-weight: lighter;
+}
+#datepicker #left {
+	display: table-cell;
+	background: #03254e;
+	height:100%;
+	vertical-align: middle;
+	float:left;
+	flex: 0 0 30%;
+	position: relative;
+	padding:1em;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+#datepicker #left .to_from {
+	color:#b0c5df;
+	font-size:1.5em;
+
+}
+#datepicker #left .date_name {
+	color:white;
+	font-size:3em;
+	padding-left:1em;
+
+}
+#datepicker #left .date_number_month {
+	color: white;
+	font-size:1.2vw;
+	margin-bottom: 1em;
+}
+#datepicker #left .date_number_month.first{
+	margin-bottom: 2em;
+
+}
+#datepicker #left #vertical_align_cont {
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	text-align: center;
+  	top: 50%; left: 50%;
+  	transform: translate(-50%,-50%);
+}
+#datepicker #right {	
+	display: table-cell;
+	height:90%;
+	vertical-align: middle;
+	background: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	float:right;
+	flex: 0 0 65%;
+	padding:2em;
+	padding-top:1em;
+
+	padding-bottom:4em;
+	box-sizing: border-box;
+}
+#datepicker #right #month {
+	width: 100%;
+	text-align: center;
+}
+#datepicker #right table {
+	width: 100%;
+
+	height: 100%;
+	table-layout: fixed ;
+	border-spacing:0px 5px;
+	padding: 0vw;
+	text-align: center;
+	padding:0;
+}
+
+#datepicker #right table .dates td:hover, #datepicker #right table .dates td.hover {
+	background: #03254e;
+	/*border-radius:50%;*/
+	color:white !important;
+}
+
+#datepicker #right table .dates td.onbeschikbaar:hover, #datepicker #right table .dates td.onbeschikbaar.hover {
+	background: #03254e;
+	/*border-radius:50%;*/
+	color:#b7b7b7 !important;
+}
+#datepicker #right table .dates td.left_select{
+	background: #03254e;
+	/*border-radius:50%;*/
+	color:white;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+
+	color:white;
+}
+#datepicker #right table .dates td.right_select{
+	background: #03254e;
+	color:white;
+	/*border-radius:50%;*/
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+
+	color:white;
+}
+#datepicker #right table .dates td.selected {
+	background: #73a8e8;
+	color:white;
+}
+
+
+td {
+  	vertical-align: middle;
+  	background: none;
+  	cursor: pointer;
+}
+#datepicker #right td.onbeschikbaar {
+	background: #efefef;
+	color: #b7b7b7;
+}
+
+
+#datepicker #right .not_curr_month {
+	color: #999;
+}
+#datepicker #right .not_curr_month.selected.onbeschikbaar {
+	color: white !important;
+}
+
+#datepicker #right td.onbeschikbaar {
+	background: #efefef !important;
+	color: #b7b7b7 !important;
+}
+#datepicker #right table .dates .not_curr_month.selected {
+	color: white;
+}
+#datepicker #right #month_year {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 3em;
+	font-weight: bold;
+}
+#datepicker #right .arrow {
+	font-size:2em;
+	cursor: pointer;
+	vertical-align: middle;
+
+}
+#datepicker #right #right_arrow {
+	float:right;
+}
+#datepicker #right #left_arrow {
+	float:left;
+	vertical-align: middle;
+}
+#datepicker #right .arrow_img {
+	height:1em;
+}
+#datepicker #right #left_arrow_img {
+	transform: rotate(180deg);
+}
+#datepicker #right .days {
+	font-size:1.2em;
+	color:#a0a3a6;
+}
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
+
+

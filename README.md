@@ -4,6 +4,8 @@ The datepicker is now made to pick a range of dates but can easily be changed to
 
 Example:
 	![Screenshot](https://github.com/willemgovaerts/datepicker/blob/master/screenshot.png)
+
+
 Date format: YYYY-MM-DD
 
 

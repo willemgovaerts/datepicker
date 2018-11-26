@@ -21,8 +21,8 @@ Coming Functionalities
   
 Usage:  
 	1)	add   
-			&lt;link rel="stylesheet" type="text/css" href="datepicker.css"&gt    
-			&lt;script src="javscript.js"&gt &lt;/script &gt;  
+			&lt;link rel="stylesheet" type="text/css" href="datepicker.css"&gt;    
+			&lt;script src="javscript.js"&gt; &lt;/script &gt;  
 		in your html or php file    
 	2)	copy and paste the datepicker.html file in your code where you want your datepicker.    
 	3)	Change the dates in unavailable in the javscript file. These dates can not be selected.    
